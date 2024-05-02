@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let nota1 = parseFloat(prompt("insira sua nota "))
+        let nota2 = parseFloat(prompt("insira sua nota "))
+        
+        
+          if ( nota1 >= 0 && nota1 <= 10 && nota2 >= 0 && nota2 <= 10) {
+            let media = (nota1 + nota2 / 2);
+            if (media >= 6) {
+                alert ("voce está aprovado"+ media.toFixed(1));
+            }else {
+        alert ("voce está reprovado" + media.toFixed(1));
+            }
+            
+          }else{
+            alert("nota invalida");
+          }
+          
+                
+          
+        
+            
+         
+         
+        
+        
+        </script>
+</body>
+</html>
